@@ -1377,7 +1377,9 @@ if (!$pconfig['numberoptions']) {
 
 $customitemtypes = array(
 	'text' => gettext('Text'), 'string' => gettext('String'), 'boolean' => gettext('Boolean'),
+	'array of unsigned integer 8' => gettext('Array Of Unsigned 8-bit integer'), 'array of unsigned integer 16' => gettext('Array Of Unsigned 16-bit integer'), 'array of unsigned integer 32' => gettext('Array Of Unsigned 32-bit integer'),
 	'unsigned integer 8' => gettext('Unsigned 8-bit integer'), 'unsigned integer 16' => gettext('Unsigned 16-bit integer'), 'unsigned integer 32' => gettext('Unsigned 32-bit integer'),
+	'array of signed integer 8' => gettext('Array Of Signed 8-bit integer'), 'array of signed integer 16' => gettext('Array Of Signed 16-bit integer'), 'array of signed integer 32' => gettext('Array Of Signed 32-bit integer'),
 	'signed integer 8' => gettext('Signed 8-bit integer'), 'signed integer 16' => gettext('Signed 16-bit integer'), 'signed integer 32' => gettext('Signed 32-bit integer'), 'ip-address' => gettext('IP address or host')
 );
 
